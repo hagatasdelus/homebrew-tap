@@ -1,4 +1,4 @@
-VERSION="0.1.1"
+VERSION="0.1.2"
 
 class Glas < Formula
   desc "Git-aware ls command written in Rust"
@@ -10,19 +10,19 @@ class Glas < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/hagatasdelus/glas/releases/download/v#{VERSION}/glas-#{VERSION}_amd64_darwin.tar.gz"
-    sha256 "a81d6c7eeecc1bed1b87b5f0742ea7e247033af595dacb3ace0a73cfe88512ec"
+    sha256 "19a67a9492627135830c1a53c2f6be501f323d9de55b95432a459c1d068ecfe8"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/hagatasdelus/glas/releases/download/v#{VERSION}/glas-#{VERSION}_arm64_darwin.tar.gz"
-    sha256 "2bdef7395e67ce4d1cd8b21b07f5fc7dea91432d00a0955ed1e440175c76a451"
+    sha256 "fcf18292a1295214f3da0eefbbc189427dc0701f4c852c4f3d29b15fa453e58d"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/hagatasdelus/glas/releases/download/v#{VERSION}/glas-#{VERSION}_amd64_linux.tar.gz"
-    sha256 "91317dd9ffa44ac4a00aa8dd4a9f1f06d40a4d8fd174991d3eb37b440361bc3f"
+    sha256 "353bad46e79e20923fd42be801bab17e40f2b867ad8b4cbc2b9dc990b4adaeca"
   end
   if OS.linux? && Hardware::CPU.arm?
     url "https://github.com/hagatasdelus/glas/releases/download/v#{VERSION}/glas-#{VERSION}_arm64_linux.tar.gz"
-    sha256 "ba0741765ef316db8297398d2f106269acb30c5708eb3c7924e117c3c018d806"
+    sha256 "479e3b7de50a835f23fe6217d1a862b2d704b48d52978a70efa20c1946fc676e"
   end
 
   def install
