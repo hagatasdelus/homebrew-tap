@@ -1,21 +1,22 @@
 # hagatasdelus/tap
 
-Third party homebrew tap to install the tools Hagata is involved in developing.
+Third-party Homebrew tap for Hagata's tools.
 
-## Synopsys
-
-```
-# tap and install
+```console
 $ brew tap hagatasdelus/tap
-$ brew install <formula>
-
-# install directly
-$ brew install hagatasdelus/tap/<formula>
 ```
 
-## Tools we provide
+## [glas](https://github.com/hagatasdelus/glas)
 
-- glas
+```console
+$ brew install hagatasdelus/tap/glas
+```
+
+## [agysession](https://github.com/hagatasdelus/agysession)
+
+```console
+$ brew install hagatasdelus/tap/agysession
+```
 
 ## Author
 
